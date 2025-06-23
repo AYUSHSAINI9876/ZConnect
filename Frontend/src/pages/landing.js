@@ -45,7 +45,10 @@ export default function LandingPage() {
           </div>
         </div>
         <div>
-          <img src="/mobile.png" alt="" />
+          <img
+            src="https://github.com/apna-college/Zoom/blob/main/frontend/public/mobile.png?raw=true"
+            alt=""
+          />
         </div>
       </div>
     </div>

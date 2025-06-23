@@ -20,7 +20,7 @@ function HomeComponent() {
     <>
       <div className="navBar">
         <div style={{ display: "flex", alignItems: "center" }}>
-          <h2> Apna Video Call </h2>{" "}
+          <h2> ZConnect </h2>{" "}
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
           <IconButton
@@ -42,7 +42,7 @@ function HomeComponent() {
       <div className="meetContainer">
         <div className="leftPanel">
           <div>
-            <h2> Providing Quality Video Call Just Like Quality Education </h2>
+            <h2> Providing Quality Video Call </h2>
             <div style={{ display: "flex", gap: "10px" }}>
               <TextField
                 onChange={(e) => setMeetingCode(e.target.value)}
@@ -57,7 +57,10 @@ function HomeComponent() {
           </div>{" "}
         </div>{" "}
         <div className="rightPanel">
-          <img srcSet="/logo3.png" alt="" />
+          <img
+            srcSet="https://github.com/apna-college/Zoom/blob/main/frontend/public/logo192.png?raw=true"
+            alt=""
+          />
         </div>{" "}
       </div>{" "}
     </>
