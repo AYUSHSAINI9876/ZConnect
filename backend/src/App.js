@@ -6,7 +6,7 @@ import { connectToSocket } from "./controllers/socketManager.js";
 import cors from "cors";
 
 // ✅ Corrected import path (lowercase 'routes')
-import userRoutes from "./Routes/users.routes.js"; // ✅ lowercase
+import userRoutes from "./routes/users.routes.js"; // ✅ lowercase
 
 const app = express();
 const server = createServer(app);
