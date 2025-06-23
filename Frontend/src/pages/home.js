@@ -20,33 +20,29 @@ function HomeComponent() {
     <>
       <div className="navBar">
         <div style={{ display: "flex", alignItems: "center" }}>
-          <h2>Let's Connect</h2>
+          <h2> Apna Video Call </h2>{" "}
         </div>
-
         <div style={{ display: "flex", alignItems: "center" }}>
           <IconButton
             onClick={() => {
               navigate("/history");
             }}>
             <RestoreIcon />
-          </IconButton>
-          <p>History</p>
-
+          </IconButton>{" "}
+          <p> History </p>
           <Button
             onClick={() => {
               localStorage.removeItem("token");
               navigate("/auth");
             }}>
-            Logout
-          </Button>
-        </div>
+            Logout{" "}
+          </Button>{" "}
+        </div>{" "}
       </div>
-
       <div className="meetContainer">
         <div className="leftPanel">
           <div>
-            <h2>Providing Quality Video Call like your loved ones</h2>
-
+            <h2> Providing Quality Video Call Just Like Quality Education </h2>
             <div style={{ display: "flex", gap: "10px" }}>
               <TextField
                 onChange={(e) => setMeetingCode(e.target.value)}
@@ -55,15 +51,15 @@ function HomeComponent() {
                 variant="outlined"
               />
               <Button onClick={handleJoinVideoCall} variant="contained">
-                Join
-              </Button>
-            </div>
-          </div>
-        </div>
+                Join{" "}
+              </Button>{" "}
+            </div>{" "}
+          </div>{" "}
+        </div>{" "}
         <div className="rightPanel">
           <img srcSet="/logo3.png" alt="" />
-        </div>
-      </div>
+        </div>{" "}
+      </div>{" "}
     </>
   );
 }
